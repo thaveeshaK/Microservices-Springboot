@@ -22,4 +22,8 @@ public class User {
     private String lastName;
     private String email;
     private String departmentId;
+
+    public String getDepartmentId() {
+        return departmentId;
+    }
 }
